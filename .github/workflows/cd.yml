@@ -13,11 +13,6 @@ jobs:
     - name: Checkout code
       uses: actions/checkout@v2
       
-    # - name: Install dependencies
-      # run: npm install # or any other command to install dependencies
-      
-    # - name: Build app
-      # run: npm run build # or any other command to build your app
       
     - name: Deploy to Github Pages
       uses: peaceiris/actions-gh-pages@v3
